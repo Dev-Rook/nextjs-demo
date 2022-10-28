@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import Styles from "../styles/Page-Styles/About/About.module.css"
+import Styles from "../styles/Page-Styles/Page.module.css";
 
 const NotFound = () => {
     const router = useRouter()

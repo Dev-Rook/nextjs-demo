@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import styles from "../styles/Page-Styles/Home/Home.module.css";
+import styles from "../styles/Page-Styles/Page.module.css";
 
 const index = () => {
   return (

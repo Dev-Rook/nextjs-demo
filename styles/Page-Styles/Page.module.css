@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: baseline;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-}/*# sourceMappingURL=Details.module.css.map */
+  padding-top: 100px;
+}/*# sourceMappingURL=Page.module.css.map */

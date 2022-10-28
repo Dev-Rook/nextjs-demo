@@ -1,5 +1,5 @@
 import React from "react";
-import Style from "../../styles/Page-Styles/Details/Details.module.css";
+import Styles from "../../styles/Page-Styles/Page.module.css";
 
 export const getStaticPaths = async () => {
   const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
@@ -32,7 +32,7 @@ export const getStaticProps = async (context) => {
 
 
 const Details = ({user}) => {
-  return <div className={Style.Page}>
+  return <div className={Styles.Page}>
     <h1>{user.name} </h1>
     <p>{user.email} </p>
     <p>{user.website} </p>

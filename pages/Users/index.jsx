@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Styles from "../../styles/Page-Styles/User/User.module.css";
+import Styles from "../../styles/Page-Styles/Page.module.css";
 
 export const getStaticProps = async () => {
   const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
